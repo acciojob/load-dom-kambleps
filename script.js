@@ -1,9 +1,4 @@
-//your JS code here. If required.
-//your JS code here. If required.
-function add_element () {
-   document.body.innerHTML = "DOM load success"
-}
-function myLoad()
-{
-   add_element();
+window.onload = (event) => {
+	
+	document.querySelector("body").innerHTML = "DOM load success"
 }
